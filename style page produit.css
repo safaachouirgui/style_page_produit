@@ -1,0 +1,127 @@
+/* Styles généraux */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header {
+    background-color: #222;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+    font-size: 24px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.product img {
+    width: 300px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.product-details {
+    flex: 1;
+}
+
+.product-details h1 {
+    margin-top: 0;
+    font-size: 28px;
+    color: #222;
+}
+
+.price {
+    font-size: 22px;
+    color: #e67e22;
+    margin: 10px 0;
+}
+
+.old-price {
+    text-decoration: line-through;
+    color: #888;
+    font-size: 18px;
+}
+
+.availability {
+    color: #27ae60;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.purchase-options .btn {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.purchase-options .btn:hover {
+    background-color: #2980b9;
+}
+
+.description {
+    margin-top: 40px;
+}
+
+.description h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #222;
+}
+
+.description p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.description ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.description ul li {
+    margin-bottom: 10px;
+}
+
+a {
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #3498db;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+.footer {
+    margin-top: 40px;
+    text-align: center;
+    padding: 10px 0;
+    background-color: #222;
+    color: #fff;
+    font-size: 14px;
+}
